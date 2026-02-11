@@ -9,7 +9,7 @@ from rest_framework.permissions import AllowAny
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 
-# 1️⃣ Initiate Payment
+
 class KhaltiInitiateAPIView(APIView):
     permission_classes = [AllowAny]
 
@@ -55,7 +55,7 @@ class KhaltiInitiateAPIView(APIView):
         return Response(data, status=response.status_code)
 
 
-# 2️⃣ Lookup / Verify Payment
+
 class KhaltiLookupAPIView(APIView):
     permission_classes = [AllowAny]
 
