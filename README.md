@@ -2,6 +2,8 @@
 
 A complete backend integration of **Khalti ePayment (Sandbox)** using **Django REST Framework**.
 
+-https://docs.khalti.com/khalti-epayment/
+
 This project demonstrates how to:
 
 - ✅ Initiate Khalti payment from backend
